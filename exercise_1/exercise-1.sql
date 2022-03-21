@@ -9,5 +9,5 @@ INNER JOIN
 ON
     city.city_id = address.city_id
 WHERE
-	address.address_id = 146
+	city.city = 'Dundee'
 
